@@ -1,0 +1,10 @@
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\bin\Debug\netcoreapp3.1\BuildingManagment.BLL.deps.json
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\bin\Debug\netcoreapp3.1\BuildingManagment.BLL.dll
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\bin\Debug\netcoreapp3.1\BuildingManagment.BLL.pdb
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.AssemblyInfo.cs
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.dll
+C:\Users\Hp\source\repos\BuildingManagment\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.pdb
