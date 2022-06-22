@@ -54,7 +54,7 @@ namespace BuildingManagment.BLL.ServiceOperations
             agencies.BuildingType = Console.ReadLine();
             switch (agencies.BuildingType)
             {
-                case "Yeni tikililər":
+                case "1":
                     break;
                 case "2":
                     break;

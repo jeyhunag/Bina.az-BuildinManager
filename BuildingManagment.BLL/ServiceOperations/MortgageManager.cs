@@ -15,17 +15,17 @@ namespace BuildingManagment.BLL.ServiceOperations
             Console.WriteLine("Ipoteka");
             Console.WriteLine("-------------------");
             Console.WriteLine("Emlakin novunu secin");
-            Console.WriteLine("1-Yeni tikililəer");
-            Console.WriteLine("2-Köhne tikililer");
-            Console.WriteLine("3-Evler / Villalar");
-            Console.WriteLine("4-Bağlar");
-            Console.WriteLine("5-Ofisler");
+            Console.WriteLine("1-Yeni tikilili");
+            Console.WriteLine("2-Köhne tikilili");
+            Console.WriteLine("3-Ev / Villa");
+            Console.WriteLine("4-Bağ");
+            Console.WriteLine("5-Ofis");
             Console.WriteLine("6-Torpaq");
-            Console.WriteLine("7-Obyektler");
+            Console.WriteLine("7-Obyekt");
             mortgage.BuildinType = Console.ReadLine();
             switch (mortgage.BuildinType)
             {
-                case "1":
+                case "1":                   
                     break;
                 case "2":
                     break;
@@ -62,13 +62,21 @@ namespace BuildingManagment.BLL.ServiceOperations
             mortgage.InitalPayment = float.Parse(Console.ReadLine());          
               Console.WriteLine("Ipotekanin muddetini girin ");
               mortgage.Term =int.Parse( Console.ReadLine());
-            
+            try
+            {
             if (mortgage.Term<=120)
             {
                  
                  mortgage.LoanRepayment = (mortgage.Price - mortgage.InitalPayment) / mortgage.Term;
                        
             }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine($"Hesablamada problem cixarsa bildir: {ex.Message}");
+            }
+           
               DataOperations.Mortgages.Add(mortgage);  
       }
         public static  void ShowMortgage()
