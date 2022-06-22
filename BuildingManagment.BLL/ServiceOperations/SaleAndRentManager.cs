@@ -11,11 +11,9 @@ namespace BuildingManagment.BLL.ServiceOperations
 
         public static void AddSaleAndRentManager()
         {
-
-            Console.WriteLine("Dasinmaz emlak isdeyirsinizmi? (He),(Yox)");
-            string Type = Console.ReadLine().ToLower();
-            if (Type=="he")
-            {
+                Console.WriteLine("----------------------------------");
+                Console.WriteLine("Dasinmaz emlak:");
+                Console.WriteLine("----------------------------------");
                 Room room = new Room();
                 Mortgage mortgage = new Mortgage();
                 RealEstateSale realEstate = new RealEstateSale();
@@ -282,11 +280,7 @@ namespace BuildingManagment.BLL.ServiceOperations
                         break;
                 }
 
-            }
-            else if (Type=="Yox")
-            {
-
-            }
+           
         }
 
        

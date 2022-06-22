@@ -6,7 +6,11 @@ namespace BuildingManagment.BLL.Models
 {
     public class Support_Service
     {
-        public string ID { get; set; }
+        public Support_Service()
+        {
+            ID = Guid.NewGuid().ToString();
+        }
+        public string ID { get; }
         public string Phone { get; set; }
         public string Adress { get; set; }
         public string Email { get; set; }

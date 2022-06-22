@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\BuildingManagment\\BuildingManagment.UI\\BuildingManagment.UI.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager\\BuildingManagment.UI\\BuildingManagment.UI.csproj",
       "projectName": "BuildingManagment.UI",
-      "projectPath": "C:\\Users\\Hp\\source\\repos\\BuildingManagment\\BuildingManagment.UI\\BuildingManagment.UI.csproj",
+      "projectPath": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager\\BuildingManagment.UI\\BuildingManagment.UI.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\source\\repos\\BuildingManagment\\BuildingManagment.UI\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager\\BuildingManagment.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Hp\\source\\repos\\BuildingManagment\\BuildingManagment.BLL\\BuildingManagment.BLL.csproj": {
-              "projectPath": "C:\\Users\\Hp\\source\\repos\\BuildingManagment\\BuildingManagment.BLL\\BuildingManagment.BLL.csproj"
+            "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager\\BuildingManagment.BLL\\BuildingManagment.BLL.csproj": {
+              "projectPath": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager\\BuildingManagment.BLL\\BuildingManagment.BLL.csproj"
             }
           }
         }

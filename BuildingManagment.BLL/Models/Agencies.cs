@@ -5,9 +5,19 @@ using System.Text;
 
 namespace BuildingManagment.BLL.Models
 {
-    public abstract class Agencies
+    public  class Agencies
     {
-        public string ID { get; set; }
-        public Mortgage Mortgage { get; set; }
+        public Agencies()
+        {
+
+            ID = Guid.NewGuid().ToString();
+        }
+        public string ID { get; }
+        public string Mortgage { get; set; }
+        public string Name { get; set; }
+        public string Type { get; set; }
+        public string BuildingType { get; set; }
+        public string Address { get; set; }
+        public string Price { get; set; }
     }
 }
