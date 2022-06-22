@@ -1,4 +1,5 @@
-﻿using BuildingManagment.BLL.ServiceOperations;
+﻿using BuildingManagment.BLL.Models;
+using BuildingManagment.BLL.ServiceOperations;
 using System;
 
 namespace BuildingManagment.UI
@@ -23,32 +24,31 @@ namespace BuildingManagment.UI
             switch (secim)
             {
                 case 1:
-                    IntroductionManager.AddIntroduction();
+                    Manager<Introduction>.ServiceCall();
                     Menu();
                     break;
                 case 2:
-                    RegistrationManager.AddRegistration();
+                    Manager<Registration>.ServiceCall();
                     Menu();
                     break;
                 case 3:
-                    PostAnAdManager.AddPostAnAd();
+                    Manager<PostAnAd>.ServiceCall();
                     Menu();
                     break;
                 case 4:
-                    SaleAndRentManager.AddSaleAndRentManager();
+                    Manager<RealEstateSale>.ServiceCall();
                     Menu();
                     break;
                 case 5:
-                    AgenciesManager.AddAgencies();
+                    Manager<Agencies>.ServiceCall();
                     Menu();
                     break;
                 case 6:
-                    MortgageManager.AddMortgage();
-                    MortgageManager.ShowMortgage();
+                    Manager<Mortgage>.ServiceCall();
                     Menu();
                     break;
                 case 7:
-                    SupportServiceManager.AddSupportServiceManager();
+                    Manager<Support_Service>.ServiceCall();
                     Menu();
                     break;
                 case 8:
