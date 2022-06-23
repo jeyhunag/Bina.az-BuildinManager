@@ -25,14 +25,17 @@ namespace BuildingManagment.UI
             {
                 case 1:
                     Manager<Introduction>.ServiceCall();
+                    IntroductionManager.ShowIntroduction();
                     Menu();
                     break;
                 case 2:
                     Manager<Registration>.ServiceCall();
+                    RegistrationManager.ShowRegistration();
                     Menu();
                     break;
                 case 3:
                     Manager<PostAnAd>.ServiceCall();
+                    PostAnAdManager.ShowPostAnAd();
                     Menu();
                     break;
                 case 4:
@@ -45,10 +48,12 @@ namespace BuildingManagment.UI
                     break;
                 case 6:
                     Manager<Mortgage>.ServiceCall();
+                    MortgageManager.ShowMortgage();
                     Menu();
                     break;
                 case 7:
                     Manager<Support_Service>.ServiceCall();
+                    SupportServiceManager.ShowSupport_Services();
                     Menu();
                     break;
                 case 8:

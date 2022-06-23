@@ -25,7 +25,8 @@ namespace BuildingManagment.BLL.ServiceOperations
                      introduction.Password = Console.ReadLine();
                      PasswordLose = double.TryParse(introduction.Password, out Password1);                     
                 } while (PasswordLose == false);
-                 DataOperations.Introductions.Add(introduction);         
+                 DataOperations.Introductions.Add(introduction);
+            Console.Clear();
         }
         public static void ShowIntroduction()
         {

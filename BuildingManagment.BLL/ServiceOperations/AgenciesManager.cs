@@ -72,6 +72,7 @@ namespace BuildingManagment.BLL.ServiceOperations
             agencies.Mortgage = "var";
             agencies.Address = "Baki";
             agencies.Price = "125.654";
+            Console.Clear();
             Console.WriteLine("----------------------------------------------------");
             Console.WriteLine("Agentlik:"+agencies.Type);
             Console.WriteLine("Emlak novu: "+agencies.BuildingType);

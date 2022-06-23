@@ -24,7 +24,8 @@ namespace BuildingManagment.BLL.ServiceOperations
                 } while (PasswordLose==false);               
                 Console.WriteLine("Texniki probleminizi yazin ");
                 support_Service.Complaint = Console.ReadLine().ToLower();
-                DataOperations.Support_Services.Add(support_Service);                                 
+                DataOperations.Support_Services.Add(support_Service);
+                Console.Clear();
         }
         public static void ShowSupport_Services()
         {

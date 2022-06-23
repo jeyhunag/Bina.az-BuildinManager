@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager\\BuildingManagment.BLL\\BuildingManagment.BLL.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager2\\BuildingManagment.BLL\\BuildingManagment.BLL.csproj",
       "projectName": "BuildingManagment.BLL",
-      "projectPath": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager\\BuildingManagment.BLL\\BuildingManagment.BLL.csproj",
+      "projectPath": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager2\\BuildingManagment.BLL\\BuildingManagment.BLL.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager\\BuildingManagment.BLL\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\OneDrive\\İş masası\\Ceyhun Qafarov\\Bina.az-BuildinManager2\\BuildingManagment.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

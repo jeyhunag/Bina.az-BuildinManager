@@ -75,9 +75,9 @@ namespace BuildingManagment.BLL.ServiceOperations
             {
 
                 Console.WriteLine($"Hesablamada problem cixarsa bildir: {ex.Message}");
-            }
-           
-              DataOperations.Mortgages.Add(mortgage);  
+            }           
+              DataOperations.Mortgages.Add(mortgage);
+              Console.Clear();
       }
         public static  void ShowMortgage()
         {

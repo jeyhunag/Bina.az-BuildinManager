@@ -18,3 +18,13 @@ C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager\Building
 C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.csproj.CoreCompileInputs.cache
 C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.dll
 C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.pdb
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\bin\Debug\netcoreapp3.1\BuildingManagment.BLL.deps.json
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\bin\Debug\netcoreapp3.1\BuildingManagment.BLL.dll
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\bin\Debug\netcoreapp3.1\BuildingManagment.BLL.pdb
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.csproj.AssemblyReference.cache
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.AssemblyInfoInputs.cache
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.AssemblyInfo.cs
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.dll
+C:\Users\Hp\OneDrive\İş masası\Ceyhun Qafarov\Bina.az-BuildinManager2\BuildingManagment.BLL\obj\Debug\netcoreapp3.1\BuildingManagment.BLL.pdb

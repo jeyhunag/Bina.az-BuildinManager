@@ -83,6 +83,7 @@ namespace BuildingManagment.BLL.ServiceOperations
 
                }
                 DataOperations.PostAnAds.Add(postAnAd);
+                Console.Clear();
         }
        
         public static void ShowPostAnAd()

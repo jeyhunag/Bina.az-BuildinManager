@@ -34,6 +34,7 @@ namespace BuildingManagment.BLL.ServiceOperations
                     case "1":
                         Console.WriteLine("Hansi meqsedle isdeysiz? (Alis),(Kiraye)");
                         string sales = Console.ReadLine().ToLower();
+                        Console.Clear();
                         if (sales=="alis")
                         {
                             realEstate.Area = 1522;
