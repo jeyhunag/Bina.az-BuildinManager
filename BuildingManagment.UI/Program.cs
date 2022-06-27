@@ -8,6 +8,7 @@ namespace BuildingManagment.UI
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
             Menu();
         }
         public static void Menu()

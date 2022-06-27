@@ -14,61 +14,12 @@ namespace BuildingManagment.BLL.ServiceOperations
             Console.WriteLine("-----------------------------");
             Console.WriteLine($"Agentlik....................");
             Console.WriteLine("-----------------------------");
-            Console.WriteLine("Dasinmaz emlak agentliyi secin");
-            Console.WriteLine("1-EVilla");
-            Console.WriteLine("2-Lider");
-            Console.WriteLine("3-Star Emlak");
-            Console.WriteLine("4-Yeni Menzil");
-            Console.WriteLine("5-Villa House");
-            Console.WriteLine("6-City House");
-            Console.WriteLine("7-Grand Emalk");
-            Console.WriteLine("8-Caspro");
-            agencies.Type = Console.ReadLine().ToLower();
-            switch (agencies.Type)
-            {
-                case "1":
-                    break;
-                case "2":
-                    break;
-                case "3":
-                    break;
-                case "4":
-                    break;
-                case "5":
-                    break;
-                case "6":
-                    break;
-                case "7":
-                    break;
-                case "8":
-                    break;
-            }
-            Console.WriteLine("Emlakin novunu secin");
-            Console.WriteLine("1-Yeni tikililər");
-            Console.WriteLine("2-Köhne tikililer");
-            Console.WriteLine("3-Evler / Villalar");
-            Console.WriteLine("4-Bağlar");
-            Console.WriteLine("5-Ofisler");
-            Console.WriteLine("6-Torpaq");
-            Console.WriteLine("7-Obyektler");
-            agencies.BuildingType = Console.ReadLine();
-            switch (agencies.BuildingType)
-            {
-                case "1":
-                    break;
-                case "2":
-                    break;
-                case "3":
-                    break;
-                case "4":
-                    break;
-                case "5":
-                    break;
-                case "6":
-                    break;
-                case "7":
-                    break;              
-            }
+            Console.WriteLine("Dasinmaz emlak agentliyi secin: (EVilla:1,Lider:2,StarEmlak:3,YeniMenzil:4," +
+                "VillaHouse:5,CityHouse:6,GrandEmalk:7,Caspro:8)");
+            agencies.Type = int.Parse(Console.ReadLine());
+            Console.WriteLine("Emlakin novunu secin: (YeniTikililər:1,KöhneTikililer:2,EvlerVillalar:3," +
+                                "Bağlar:4, Ofisler:5, Torpaq:6,Obyektler:7) ");
+            agencies.BuildingType = int.Parse(Console.ReadLine());
             agencies.Mortgage = "var";
             agencies.Address = "Baki";
             agencies.Price = "125.654";

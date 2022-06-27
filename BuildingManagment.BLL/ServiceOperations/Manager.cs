@@ -38,7 +38,6 @@ namespace BuildingManagment.BLL.ServiceOperations
             if (typeof(T) == mortgage)
             {
                 MortgageManager.AddMortgage();
-                MortgageManager.ShowMortgage();
             }
             Type support_service = typeof(Support_Service);
             if (typeof(T) == support_service)

@@ -22,7 +22,7 @@ namespace BuildingManagment.BLL.Models
         public string AdditionalInformation { get; set; }
         public string Phone { get; set; }
         public string Address { get; set; }
-        public string Type { get; set; }
+        public int  Type { get; set; }
         public string Mortgage { get; set; }
 
 

@@ -17,8 +17,8 @@ namespace BuildingManagment.BLL.ServiceOperations
             Console.WriteLine("-------------------------");
             Console.WriteLine($"Giris:");
             Console.WriteLine("-------------------------");
-                Console.WriteLine($"Emailinizi daxil edin: ");
-                introduction.Email = Console.ReadLine().ToLower();
+            Console.WriteLine($"Emailinizi daxil edin: ");
+            introduction.Email = Console.ReadLine().ToLower();
                 do
                 {
                      Console.WriteLine($"Sifrenizi daxil edin: ");
@@ -29,8 +29,7 @@ namespace BuildingManagment.BLL.ServiceOperations
             Console.Clear();
         }
         public static void ShowIntroduction()
-        {
-           
+        {          
             foreach (var item in DataOperations.Introductions)
             {
                 Console.WriteLine("-------------------------");

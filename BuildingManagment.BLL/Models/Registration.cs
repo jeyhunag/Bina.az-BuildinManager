@@ -10,8 +10,8 @@ namespace BuildingManagment.BLL.Models
         public Registration()
         {
             ID = IDGenerator.GetCurrentTimeId();
-        }
-        public Int64 ID { get; set; }
+        }      
+        public Int64 ID { get; }
         public string CompanyName { get; set; }
         public string RelevantPerson { get; set; }
         public string Phone { get; set; }

@@ -32,6 +32,7 @@ namespace BuildingManagment.BLL.ServiceOperations
             } while (PasswordLose1 == false);              
                 DataOperations.Registrations.Add(registration);
                 Console.Clear();
+                
         }      
         public static void ShowRegistration()
         {

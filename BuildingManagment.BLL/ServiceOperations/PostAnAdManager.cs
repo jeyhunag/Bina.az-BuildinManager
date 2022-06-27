@@ -22,35 +22,9 @@ namespace BuildingManagment.BLL.ServiceOperations
                 postAnAd.FullName = Console.ReadLine().ToLower();
                 Console.WriteLine("Email unavnizi daxil edin");
                 postAnAd.Email = Console.ReadLine().ToLower();
-                Console.WriteLine("Dasinmaz emlakin novunu girin");
-                Console.WriteLine("1-Yeni tikili");
-                Console.WriteLine("2-Kohne tikili");
-                Console.WriteLine("3-Ev/Villa");
-                Console.WriteLine("4-Bag");
-                Console.WriteLine("5-Ofis");
-                Console.WriteLine("6-Qarac");
-                Console.WriteLine("7-Torpaq");
-                Console.WriteLine("8-Obyekt");
-                postAnAd.Type = Console.ReadLine().ToLower();
-                switch (postAnAd.Type)
-                {
-                    case "1":
-                        break;
-                    case "2":
-                        break;
-                    case "3":
-                        break;
-                    case "4":
-                        break;
-                    case "5":
-                        break;
-                    case "6":
-                        break;
-                    case "7":
-                        break;
-                    case "8":
-                        break;
-                }
+                Console.WriteLine("Emlakin novunu secin: (YeniTikililər:1,KöhneTikililer:2,EvlerVillalar:3," +
+                           "Bağlar:4, Ofisler:5, Torpaq:6,Obyektler:7) ");
+                postAnAd.Type = int.Parse(Console.ReadLine());
                 do
                 {
                  Console.WriteLine("Telefon nomrenizi daxil edin");
@@ -76,16 +50,13 @@ namespace BuildingManagment.BLL.ServiceOperations
                 postAnAd.Mortgage = Console.ReadLine();
                if (postAnAd.Mortgage=="he")
                {
-
                }
                else if (postAnAd.Mortgage=="yox")
                {
-
                }
                 DataOperations.PostAnAds.Add(postAnAd);
                 Console.Clear();
-        }
-       
+        }      
         public static void ShowPostAnAd()
         {
             foreach (var item in DataOperations.PostAnAds)

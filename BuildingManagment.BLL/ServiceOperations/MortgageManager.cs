@@ -8,38 +8,16 @@ namespace BuildingManagment.BLL.ServiceOperations
 {
     public class MortgageManager
     {
+       
       public static void AddMortgage()
       {
             Mortgage mortgage = new Mortgage();
             Console.WriteLine("-------------------");
             Console.WriteLine("Ipoteka");
             Console.WriteLine("-------------------");
-            Console.WriteLine("Emlakin novunu secin");
-            Console.WriteLine("1-Yeni tikilili");
-            Console.WriteLine("2-Köhne tikilili");
-            Console.WriteLine("3-Ev / Villa");
-            Console.WriteLine("4-Bağ");
-            Console.WriteLine("5-Ofis");
-            Console.WriteLine("6-Torpaq");
-            Console.WriteLine("7-Obyekt");
-            mortgage.BuildinType = Console.ReadLine();
-            switch (mortgage.BuildinType)
-            {
-                case "1":                   
-                    break;
-                case "2":
-                    break;
-                case "3":
-                    break;
-                case "4":
-                    break;
-                case "5":
-                    break;
-                case "6":
-                    break;
-                case "7":
-                    break;
-            }
+            Console.WriteLine("Emlakin novunu secin: (YeniTikililər:1,KöhneTikililer:2,EvlerVillalar:3," +
+                               "Bağlar:4, Ofisler:5, Torpaq:6,Obyektler:7) ");
+            mortgage.BuildinType = int.Parse(Console.ReadLine());
             Console.WriteLine("Otaq sayini girin");
             mortgage.Room = int.Parse(Console.ReadLine());
             Console.WriteLine("Unvani girin");
@@ -65,19 +43,16 @@ namespace BuildingManagment.BLL.ServiceOperations
             try
             {
             if (mortgage.Term<=120)
-            {
-                 
-                 mortgage.LoanRepayment = (mortgage.Price - mortgage.InitalPayment) / mortgage.Term;
-                       
+            {                
+                 mortgage.LoanRepayment = (mortgage.Price - mortgage.InitalPayment) / mortgage.Term;                       
             }
             }
             catch (Exception ex)
             {
-
                 Console.WriteLine($"Hesablamada problem cixarsa bildir: {ex.Message}");
-            }           
-              DataOperations.Mortgages.Add(mortgage);
-              Console.Clear();
+            }
+            Console.Clear();
+              DataOperations.Mortgages.Add(mortgage);             
       }
         public static  void ShowMortgage()
         {
@@ -87,6 +62,7 @@ namespace BuildingManagment.BLL.ServiceOperations
                 Console.WriteLine("Ipoteka");
                 Console.WriteLine("---------------------------------------------------");
                 Console.WriteLine($"Emlak: {item.BuildinType} ");
+                Console.WriteLine($"ID: {item.ID}");
                 Console.WriteLine($"Otaq sayi: {item.Room}");
                 Console.WriteLine($"Address: {item.Address}");
                 Console.WriteLine($"Cixaris: {item.Extract}");
@@ -98,5 +74,8 @@ namespace BuildingManagment.BLL.ServiceOperations
                 Console.WriteLine("----------------------------------------------------");
             }
         }
+
+       
+        
     }
 }
